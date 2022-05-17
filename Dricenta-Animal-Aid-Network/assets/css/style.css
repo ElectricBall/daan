@@ -1,0 +1,42 @@
+body::before {
+  display: block;
+  content: '';
+  height: 70px;
+}
+
+.no-dec {
+  text-decoration: none; 
+  list-style: none;
+  color: black;
+}
+
+.no-dec:hover {
+  color: #0DCAF0;
+}
+
+.error-body {
+  background-color: #143F6B !important;
+}
+
+.success-body {
+  background-color: darkcyan !important;
+}
+
+.success {
+  text-decoration: none; 
+  list-style: none;
+  color: #95e4f8 !important;
+}
+
+.success:hover {
+  color: #0DCAF0 !important;
+}
+.error {
+  text-decoration: none; 
+  list-style: none;
+  color: #0DCAF0 !important;
+}
+
+.error:hover {
+  color: #95e4f8 !important;
+}
